@@ -1,7 +1,28 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@article{key,
+  abbr={KSME},
+  title={Optimal deep ECG denoising model search using Hyperband approach},
+  abstract={Electrocardiogram (ECG) serves as a diagnostic tool for assessing cardiac health. Unfortunately, ECG analysis is often impeded by inherent noise originating from physiological processes and external interferences, such as movement artifacts. In the pursuit of accurate analysis, the removal of noise through preprocessing is imperative. ECG denoising often depends on deep neural networks (DNNs), leveraging their ability to learn clean signal patterns within noisy signals. However, existing methodologies in DNNs design predominantly adhere to the developer's experience. When designed empirically, optimal performance cannot be achieved. The point of our solution for is the search for a hyperparameter to maximize the signal-to-noise ratio (SNR) for an ECG denoising model using an optimization method called Hyperband. In this paper, we used the MIT-BIH arrhythmia database. And we are subject to min-max scaling for data normalization. After that, we segment and store the ECG every 3 seconds. Also, to simulate it like a real motion artifact, white gaussian noise of SNR 0db, 2.5db, and 5db was added. Our model is an autoencoder structure consisting of a convolutional and a transposed convolutional layer. The candidates considered for optimization are the neurons of the 1D convolutional layer and the kernel size of all layers. As an optimized result, the performance under all experiment conditions was better than the empirically case and it showed the applicability of the optimized model for ECG analysis.},
+  author={Seungwoo Han and Wongyu Lee and Minjae Jeong and Unang Sunarya},
+  journal={KSME IT Intelligence Convergence Spring Conference},
+  year={2024}
+}
+
+@article{kang2023gan,
+  abbr={BMEL},
+  title={GAN-based patient information hiding for an ECG authentication system},
+  abstract={Various biometrics such as the face, irises, and fingerprints, which can be obtained in a relatively simple way in modern society, are used in personal authentication systems to identify individuals. These biometric data are extracted from an individual’s physiological data and yield high performance in identifying an individual using unique data patterns. Biometric identification is also used in portable devices such as mobile devices because it is more secure than cryptographic token-based authentication methods. However, physiological data could include personal health information such as arrhythmia related patterns in electrocardiogram (ECG) signals. To protect sensitive health information from hackers, the biomarkers of certain diseases or disorders that exist in ECG signals need to be hidden. Additionally, to implement the inference models for both arrhythmia detection and personal authentication in a mobile device, a lightweight model such as a multi-task deep learning model should be considered. This study demonstrates a multi-task neural network model that simultaneously identifies an individual’s ECG and arrhythmia patterns using a small network. Finally, the computational efficiency and model size of the single-task and multi-task models were compared based on the number of parameters. Although the multi-task model has 20,000 fewer parameters than the single-task model, they yielded similar performance, which demonstrates the efficient structure of the multi-task model.},
+  author={Kang, Youngshin and Yang, Geunbo and Eom, Heesang and Han, Seungwoo and Baek, Suwhan and Noh, Seungil and Shin, Youngjoo and Park, Cheolsoo},
+  journal={Biomedical Engineering Letters},
+  volume={13},
+  number={2},
+  pages={197--207},
+  year={2023},
+  pdf={https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10130315/},
+  publisher={Springer}
+}
 
 @article{hantorchact,
   abbr={pypi},
@@ -15,17 +36,19 @@
 @article{한승우2022신호,
   abbr={KICS},
   title={AI model based variational mode decomposition using signal data},
+  abstract={Research has been conducted to separate signals by frequency in order to analyze signals. Among signal analysis methods, variational mode decomposition (VMD) is a method to separate signals into multiple modes. This paper implemented a model that plays the role of VMD using convolutional neural networks (CNN). The results showed that the lower order modes have a similar form to the original mode.},
   author={Seungwoo Han},
   journal={proceedings of symposium of the korean institute of communications and information sciences},
   pages={1362--1363},
   year={2022},
-  pdf={https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11132851},
+  pdf={https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11108279},
   code={https://github.com/kaintels/NN-VMD},
 }
 
 @article{한승우2022그래프,
   abbr={IEIE},
   title={Arrhythmia classification algorithm using graph neural networks},
+  abstract={An arrhythmia classification is difficult and time-consuming task for cardiologists. Automatic arrhythmia classification research using machine learning algorithms has been continuously conducted, yielding meaningful performance. In this paper, we implemented graph neural networks for the arrhythmia classification extracting the graph features in order to improve the performance. The results were comparable with those of other machine learning models, showing the possibility of a new arrhythmia classifier.},
   author={Seungwoo Han and Jaewoo Baek and Cheolsoo Park},
   journal={IEIE Summer Conference},
   pages={2012--2014},
@@ -40,6 +63,7 @@
 @article{han2021optimal,
   abbr={Engrxiv},
   title={Optimal feature selection for firewall log analysis using Machine learning and Hybrid Metaheuristic algorithms},
+  abstract={Firewall log classification is important to monitor network traffic. Most firewall log classification via machine learning has shown good result by network-related features and classifiers. However, feature with many dimensions take a lot of time to do classification. In this paper, we applied a method of feature selection using optimized bee swarm optimization with reinforcement learning. We evaluated average performance by accuracy, macro-averaged precision, macro-averaged recall, and macro-averaged F1 score in 5-stratified folds using a random forest, k-nearest neighbor, and naïve bayes classifier. As a results, it could be applied for an automatic firewall log analysis system.},
   author={Han, Seungwoo and Hong, Gil and Kim, Jewan and Yu, Jeuk and Lee, Sangjun and Cho, Byeongok and Jeon, Jusung},
   year={2021},
   publisher={Engineering Archive},
@@ -47,9 +71,24 @@
   pdf={https://engrxiv.org/preprint/view/1517/},
 }
 
+@article{eom2020end,
+  abbr={Sensors},
+  title={End-to-end deep learning architecture for continuous blood pressure estimation using attention mechanism},
+  abstract={Blood pressure (BP) is a vital sign that provides fundamental health information regarding patients. Continuous BP monitoring is important for patients with hypertension. Various studies have proposed cuff-less BP monitoring methods using pulse transit time. We propose an end-to-end deep learning architecture using only raw signals without the process of extracting features to improve the BP estimation performance using the attention mechanism. The proposed model consisted of a convolutional neural network, a bidirectional gated recurrent unit, and an attention mechanism. The model was trained by a calibration-based method, using the data of each subject. The performance of the model was compared to the model that used each combination of the three signals, and the model with the attention mechanism showed better performance than other state-of-the-art methods, including conventional linear regression method using pulse transit time (PTT). A total of 15 subjects were recruited, and electrocardiogram, ballistocardiogram, and photoplethysmogram levels were measured. The 95% confidence interval of the reference BP was [86.34, 143.74] and [51.28, 88.74] for systolic BP (SBP) and diastolic BP (DBP), respectively. The 𝑅2 values were 0.52 and 0.49, and the mean-absolute-error values were 4.06 ± 4.04 and 3.33 ± 3.42 for SBP and DBP, respectively. In addition, the results complied with global standards. The results show the applicability of the proposed model as an analytical metric for BP estimation.},
+  author={Eom, Heesang and Lee, Dongseok and Han, Seungwoo and Hariyani, Yuli Sun and Lim, Yonggyu and Sohn, Illsoo and Park, Kwangsuk and Park, Cheolsoo},
+  journal={Sensors},
+  volume={20},
+  number={8},
+  pages={2338},
+  year={2020},
+  pdf={https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7219235/},
+  publisher={MDPI}
+}
+
 @inproceedings{han2020optimal,
   abbr={IEEE},
   title={Optimal DNN architecture search using Bayesian Optimization Hyperband for arrhythmia detection},
+  abstract={Automatic detection of arrhythmia using electrocardiogram (ECG) signal is an important role in the early diagnosis of cardiovascular diseases. Most of the arrhythmia detection researches have focused on the analysis of 1D time-series ECG signals, where deep neural network architecture have been applied due to its reliable and high performance. However, the hyperparameters of the deep learning model are mostly chosen empirically by the developer, which could be often suboptimal. For the optimal hyperparameter search, we propose the application of Bayesian optimization hyperband (BOHB) to the architectures of convolutional neural networks (CNN) and long short-term memory (LSTM). To evaluate the performance of the efficiently obtained DNN structures, we measured the overall accuracy and macro-averaged F1 score were measured, which were 0.7280 and 0.5931, while the overall accuracy and macro-averaged F1 score of empirically designed DNN were 0.7110 and 0.5679, respectively. The results demonstrate the optimized model outperforms the empirically designed model.},
   author={Han, Seungwoo and Eom, Heesang and Kim, Juhyeong and Park, Cheolsoo},
   booktitle={2020 IEEE Wireless Power Transfer Conference (WPTC)},
   pages={357--360},
