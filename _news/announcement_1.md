@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-05-10 00:00:00-0800
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Seungwoo have been invited as a speaker. "A Special Lecture on Insight in the Top 5 High-Tech Fields. Daejeon Daesin High School, 2024"
+
