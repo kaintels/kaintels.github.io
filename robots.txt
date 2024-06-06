@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://kaintels.github.io/sitemap.xml
