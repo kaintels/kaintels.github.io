@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Seungwoo won the AI competition. "Cybersecurity AI/Big Data Contest - AI-based Powershell Malicious Script Detection Track" organized by the Korea Internet & Security Agency.
+Seungwoo was awarded at the AI competition (excellent prize). "Cybersecurity AI/Big Data Contest - AI-based Powershell Malicious Script Detection Track" organized by the Korea Internet & Security Agency.
 

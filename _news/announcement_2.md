@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Seungwoo Han was awarded at the IEIE Summer Conference for his presentation, "Arrhythmia Classification Algorithm Using Graph Neural Networks"
+Seungwoo Han was awarded at the IEIE Summer Conference (Excellence Student Paper Award) for his presentation, "Arrhythmia Classification Algorithm Using Graph Neural Networks"
 
