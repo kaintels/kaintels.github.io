@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Signal Processing Researcher
+subtitle: Wearable computing researcher
 
 profile:
   align: right
@@ -16,10 +16,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<a href="https://scholar.google.com/citations?user=NWbfyKYAAAAJ&hl">Seungwoo</a> currently serves as a Leader at <a href="https://modulabs.co.kr/">MODULABS</a> Multi-agent reinforcement learning environment (Multi-RL Env) LAB.
-His interests lie in analyzing biological signals using machine learning techniques. He has published over 23 papers in the field of signal processing with AI.
+Hello! 👋 I currently serve as a Leader at <a href="https://modulabs.co.kr/">MODULABS</a> Multi-agent reinforcement learning environment (Multi-RL Env) LAB, where I focus on enhancing biomedical signal analysis.
 
 My research topics of interest include, but are not limited to:
-- Multi-task learning
-- Deep reinforcement learning
-- Metaheuristic algorithms
+- Deep multi-agent reinforcement learning
+- Federated learning
+- Model pruning for healthcare
