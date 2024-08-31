@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Wearable computing researcher
+subtitle: Human-animal interaction researcher
 
 profile:
   align: right
@@ -19,6 +19,7 @@ social: true # includes social icons at the bottom of the page
 Hello! 👋 I currently studying as a research student at Tokyo University of Agriculture and Technology TT LAB, where I focus on understanding human-animal interaction.
 
 My research topics of interest include, but are not limited to:
-- Physiological signal processing
+
+- AI for biomedical signal processing
 - Brain computer interface
-- Large multimodal model
+- Biomedical signal to text
