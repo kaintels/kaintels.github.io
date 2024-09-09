@@ -22,4 +22,4 @@ My research topics of interest include, but are not limited to:
 
 - AI for biomedical signal processing
 - Brain computer interface
-- Biomedical signal to text
+- Surrogate model with reinforcement learning
