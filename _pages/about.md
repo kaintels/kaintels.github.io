@@ -21,5 +21,5 @@ Hello! 👋 I currently studying as a research student at Tokyo University of Ag
 My research topics of interest include, but are not limited to:
 
 - Stress classification
-- AI for biomedical signal processing
-- Surrogate model
+- Biomedical signal processing
+- Explainable AI
