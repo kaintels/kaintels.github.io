@@ -20,6 +20,6 @@ Hello! 👋 I currently studying as a research student at Tokyo University of Ag
 
 My research topics of interest include, but are not limited to:
 
-- Multimodal emotion recognition
-- AI for signal processing
-- Biometrics
+- Multimodal learning
+- Representation learning
+- Neural architecture search
