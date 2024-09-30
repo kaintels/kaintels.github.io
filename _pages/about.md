@@ -20,6 +20,6 @@ Hello! 👋 I currently studying as a research student at Tokyo University of Ag
 
 My research topics of interest include, but are not limited to:
 
-- Stress classification
-- Biomedical signal processing
-- Explainable AI
+- Multimodal emotion recognition
+- AI for signal processing
+- Biometrics
