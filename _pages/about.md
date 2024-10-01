@@ -22,4 +22,4 @@ My research topics of interest include, but are not limited to:
 
 - Multimodal learning
 - Representation learning
-- Neural architecture search
+- Graph neural architecture search
