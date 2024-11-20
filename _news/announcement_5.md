@@ -1,9 +1,8 @@
 ---
 layout: post
-date: 2024-08-14 00:00:00-0800
+date: 2024-11-05 00:00:00-0800
 inline: true
 related_posts: false
 ---
 
-Seungwoo will start research on application large multimodal model at the MODUAI Lab(MODULABS).
-
+My paper, titled "Arrhythmia Classification Using Graph Neural Networks Based on Correlation Matrix", has been accepted for publication in 2024 IEEE International Conference on Bioinformatics and Biomedicine Workshop on Artificial Intelligence Techniques for BioMedicine and HealthCare!

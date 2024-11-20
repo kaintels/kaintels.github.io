@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Human-animal interaction researcher
+subtitle: Network scientist
 
 profile:
   align: right
@@ -20,6 +20,8 @@ Hello! 👋 I currently studying as a PhD student at Tokyo University of Agricul
 
 My research topics of interest include, but are not limited to:
 
-- Multimodal learning
-- Representation learning
-- Neural architecture search
+- Explainable knowledge graph embbedding
+  - healthcare, cyber security, bibliography
+- Mixure of expert for human-animal interaction
+- Graph neural architecture search
+  - evolutionary computation

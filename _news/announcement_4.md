@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Seungwoo have completed research on application of multi-agent reinforcement learning at the Multi-RL Env Lab(MODULABS).
+Seungwoo have completed research on application of multi-agent reinforcement learning at the Multi-RL Env Lab.
 
