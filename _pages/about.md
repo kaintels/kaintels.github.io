@@ -21,8 +21,9 @@ Hello! 👋 I currently studying as a PhD student at Tokyo University of Agricul
 My research topics of interest include, but are not limited to:
 
 - Graph signal processing
-  - time-varying graph mode decomposition
+  - graph mode decomposition
   - causality
   - domain adaption
 - Information extraction
   - relationship extraction
+  - tensor decomposition
