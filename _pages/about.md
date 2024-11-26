@@ -22,6 +22,7 @@ My research topics of interest include, but are not limited to:
 
 - Explainable knowledge graph embbedding
   - healthcare, cyber security, bibliography
-- Mixure of expert for human-animal interaction
-- Graph neural architecture search
-  - evolutionary computation
+- Information extraction
+  - relationship extraction
+- AI for biomedical signal processing
+  - mode decomposition
