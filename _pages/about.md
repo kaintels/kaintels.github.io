@@ -22,7 +22,7 @@ My research topics of interest include, but are not limited to:
 
 - Graph signal processing
   - graph mode decomposition
-  - causality and domain adaption
+  - causality and domain adaptation
 - Information extraction
   - relationship extraction
   - tensor decomposition
