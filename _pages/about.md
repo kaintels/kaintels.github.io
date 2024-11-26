@@ -20,9 +20,9 @@ Hello! 👋 I currently studying as a PhD student at Tokyo University of Agricul
 
 My research topics of interest include, but are not limited to:
 
-- Explainable knowledge graph embbedding
-  - healthcare, cyber security, bibliography
+- Graph signal processing
+  - time-varying graph mode decomposition
+  - causality
+  - domain adaption
 - Information extraction
   - relationship extraction
-- AI for biomedical signal processing
-  - mode decomposition
