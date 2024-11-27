@@ -1,12 +1,12 @@
 ---
 ---
 
-@article{key,
+@inproceedings{key,
   abbr={KSME},
   title={Optimal deep ECG denoising model search using Hyperband approach},
   abstract={Electrocardiogram (ECG) serves as a diagnostic tool for assessing cardiac health. Unfortunately, ECG analysis is often impeded by inherent noise originating from physiological processes and external interferences, such as movement artifacts. In the pursuit of accurate analysis, the removal of noise through preprocessing is imperative. ECG denoising often depends on deep neural networks (DNNs), leveraging their ability to learn clean signal patterns within noisy signals. However, existing methodologies in DNNs design predominantly adhere to the developer's experience. When designed empirically, optimal performance cannot be achieved. The point of our solution for is the search for a hyperparameter to maximize the signal-to-noise ratio (SNR) for an ECG denoising model using an optimization method called Hyperband. In this paper, we used the MIT-BIH arrhythmia database. And we are subject to min-max scaling for data normalization. After that, we segment and store the ECG every 3 seconds. Also, to simulate it like a real motion artifact, white gaussian noise of SNR 0db, 2.5db, and 5db was added. Our model is an autoencoder structure consisting of a convolutional and a transposed convolutional layer. The candidates considered for optimization are the neurons of the 1D convolutional layer and the kernel size of all layers. As an optimized result, the performance under all experiment conditions was better than the empirically case and it showed the applicability of the optimized model for ECG analysis.},
   author={Seungwoo Han and Wongyu Lee and Minjae Jeong and Unang Sunarya},
-  journal={KSME IT Intelligence Convergence Spring Conference},
+  booktitle={KSME IT Intelligence Convergence Spring Conference},
   year={2024}
 }
 
@@ -33,24 +33,24 @@
   code={https://github.com/kaintels/torchact},
 }
 
-@article{한승우2022신호,
+@inproceedings{han2022sig,
   abbr={KICS},
   title={AI model based variational mode decomposition using signal data},
   abstract={Research has been conducted to separate signals by frequency in order to analyze signals. Among signal analysis methods, variational mode decomposition (VMD) is a method to separate signals into multiple modes. This paper implemented a model that plays the role of VMD using convolutional neural networks (CNN). The results showed that the lower order modes have a similar form to the original mode.},
   author={Seungwoo Han},
-  journal={proceedings of symposium of the korean institute of communications and information sciences},
+  booktitle={proceedings of symposium of the korean institute of communications and information sciences},
   pages={1362--1363},
   year={2022},
   pdf={https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11108279},
   code={https://github.com/kaintels/NN-VMD},
 }
 
-@article{한승우2022그래프,
+@inproceedings{han2022graph,
   abbr={IEIE},
   title={Arrhythmia classification algorithm using graph neural networks},
   abstract={An arrhythmia classification is difficult and time-consuming task for cardiologists. Automatic arrhythmia classification research using machine learning algorithms has been continuously conducted, yielding meaningful performance. In this paper, we implemented graph neural networks for the arrhythmia classification extracting the graph features in order to improve the performance. The results were comparable with those of other machine learning models, showing the possibility of a new arrhythmia classifier.},
   author={Seungwoo Han and Jaewoo Baek and Cheolsoo Park},
-  journal={IEIE Summer Conference},
+  booktitle={IEIE Summer Conference},
   pages={2012--2014},
   year={2022},
   pdf={https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11132851},
@@ -85,10 +85,10 @@
 }
 
 @inproceedings{han2020optimal,
-  abbr={IEEE},
+  abbr={IEEE WPTC},
   title={Optimal DNN architecture search using Bayesian Optimization Hyperband for arrhythmia detection},
   abstract={Automatic detection of arrhythmia using electrocardiogram (ECG) signal is an important role in the early diagnosis of cardiovascular diseases. Most of the arrhythmia detection researches have focused on the analysis of 1D time-series ECG signals, where deep neural network architecture have been applied due to its reliable and high performance. However, the hyperparameters of the deep learning model are mostly chosen empirically by the developer, which could be often suboptimal. For the optimal hyperparameter search, we propose the application of Bayesian optimization hyperband (BOHB) to the architectures of convolutional neural networks (CNN) and long short-term memory (LSTM). To evaluate the performance of the efficiently obtained DNN structures, we measured the overall accuracy and macro-averaged F1 score were measured, which were 0.7280 and 0.5931, while the overall accuracy and macro-averaged F1 score of empirically designed DNN were 0.7110 and 0.5679, respectively. The results demonstrate the optimized model outperforms the empirically designed model.},
-  author={Han, Seungwoo and Eom, Heesang and Kim, Juhyeong and Park, Cheolsoo},
+  author={Seungwoo Han, and Heesang Eom, and Juhyeong Kim, and Cheolsoo Park},
   booktitle={2020 IEEE Wireless Power Transfer Conference (WPTC)},
   pages={357--360},
   year={2020},
@@ -97,15 +97,28 @@
   selected={true}
 }
 
-@misc{han2024arrhythmiaclassificationusinggraph,
-  abbr={arXiv},
+@inproceedings{han2024arrhythmiaclassificationusinggraph,
+  abbr={IEEE BIBMW},
   title={Arrhythmia Classification Using Graph Neural Networks Based on Correlation Matrix}, 
   author={Seungwoo Han},
   year={2024},
   eprint={2410.10758},
   archivePrefix={arXiv},
   primaryClass={eess.SP},
+  booktitle={IEEE BIBM AIBH Workshop (accepted)},
   url={https://arxiv.org/abs/2410.10758}, 
   pdf={https://arxiv.org/abs/2410.10758},
+  selected={true}
+}
+
+@inproceedings{han2024koraiconf,
+  abbr={KoreaAIConf},
+  title={The design of a role deep learning model for contrastive learning-based variational mode decomposition in arrhythmia detection}, 
+  abstract={Variational mode decomposition is a method that decomposes signals into multiple intrinsic modes. This paper designs a deep learning model that performs the role of variational mode decomposition for arrhythmia detection, using contrastive learning to capture data similarities. Through correlation evaluation with a model that does not use contrastive learning and performance evaluation of arrhythmia detection, we confirmed the potential of the proposed model to generate intrinsic modes.},
+  author={Seungwoo Han and Unang Sunarya},
+  booktitle={The 5th Korea Artificial Intelligence Conference},
+  pages={2012--2014},
+  year={2024},
+  pdf={https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11949206},
   selected={true}
 }
