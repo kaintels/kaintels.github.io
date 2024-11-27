@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Network scientist
+subtitle: PhD student
 
 profile:
   align: right
