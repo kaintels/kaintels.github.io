@@ -26,3 +26,12 @@ My research topics of interest include, but are not limited to:
 - Information extraction
   - relationship extraction
   - tensor decomposition
+
+Reviewer experience
+
+- IEEE International Conference on Acoustics, Speech, and Signal Processing
+- IEIE Transactions on Smart Processing and Computing
+
+Academic activity
+
+- The Institute of Electronics and Information Engineers
