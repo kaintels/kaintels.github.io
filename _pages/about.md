@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! 👋 I currently studying as a PhD student at Tokyo University of Agriculture and Technology TT LAB, where I focus on understanding human-animal interaction.
+Hello! 👋 I currently studying as a PhD student at Tokyo University of Agriculture and Technology TT LAB, where I focus on research in graph signal processing.
 
 My research topics of interest include, but are not limited to:
 
@@ -34,4 +34,4 @@ Reviewer experience
 
 Academic activity
 
-- The Institute of Electronics and Information Engineers
+- Member, The Institute of Electronics and Information Engineers
