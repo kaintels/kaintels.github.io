@@ -2,18 +2,33 @@
 ---
 
 @inproceedings{key,
-  abbr={KSME},
-  title={Optimal deep ECG denoising model search using Hyperband approach},
-  abstract={Electrocardiogram (ECG) serves as a diagnostic tool for assessing cardiac health. Unfortunately, ECG analysis is often impeded by inherent noise originating from physiological processes and external interferences, such as movement artifacts. In the pursuit of accurate analysis, the removal of noise through preprocessing is imperative. ECG denoising often depends on deep neural networks (DNNs), leveraging their ability to learn clean signal patterns within noisy signals. However, existing methodologies in DNNs design predominantly adhere to the developer's experience. When designed empirically, optimal performance cannot be achieved. The point of our solution for is the search for a hyperparameter to maximize the signal-to-noise ratio (SNR) for an ECG denoising model using an optimization method called Hyperband. In this paper, we used the MIT-BIH arrhythmia database. And we are subject to min-max scaling for data normalization. After that, we segment and store the ECG every 3 seconds. Also, to simulate it like a real motion artifact, white gaussian noise of SNR 0db, 2.5db, and 5db was added. Our model is an autoencoder structure consisting of a convolutional and a transposed convolutional layer. The candidates considered for optimization are the neurons of the 1D convolutional layer and the kernel size of all layers. As an optimized result, the performance under all experiment conditions was better than the empirically case and it showed the applicability of the optimized model for ECG analysis.},
-  author={Seungwoo Han and Wongyu Lee and Minjae Jeong and Unang Sunarya},
-  booktitle={KSME IT Intelligence Convergence Spring Conference},
-  year={2024}
+  abbr={KOSOMBE},
+  title={Reinforcement Learning Algorithm for Blood Pressure Estimation using ECG and PPG Signals},
+  abstract={Blood pressure is one of the major bio-signal information which indicates one’s health
+  condition. Especially, it is closely related to major cardiovascular diseases such as heart attack.
+  So far, ECG and PPG features which contain heart activities in the form of characteristic signals
+  for blood pressure has been studied constantly. However, there were some difficulties for
+  choosing distinctive features which has high correlation to blood pressure. In this paper, we
+  designed a reinforcement learning algorithm model such as Deep Q-Network (DQN) for high-
+  costly feature extraction in order to estimate blood pressure. Finally, we evaluated
+  performance by comparing the accuracy of the DQN and linear regression.},
+  author={Seungwoo Han and Heesang Eom and Taeheum Cho and Cheolsoo Park},
+  booktitle={The Korean Society of Medical&Biological and Engineering Spring Conference},
+  year={2019}
 }
 
 @article{kang2023gan,
   abbr={BMEL},
   title={GAN-based patient information hiding for an ECG authentication system},
-  abstract={Various biometrics such as the face, irises, and fingerprints, which can be obtained in a relatively simple way in modern society, are used in personal authentication systems to identify individuals. These biometric data are extracted from an individual’s physiological data and yield high performance in identifying an individual using unique data patterns. Biometric identification is also used in portable devices such as mobile devices because it is more secure than cryptographic token-based authentication methods. However, physiological data could include personal health information such as arrhythmia related patterns in electrocardiogram (ECG) signals. To protect sensitive health information from hackers, the biomarkers of certain diseases or disorders that exist in ECG signals need to be hidden. Additionally, to implement the inference models for both arrhythmia detection and personal authentication in a mobile device, a lightweight model such as a multi-task deep learning model should be considered. This study demonstrates a multi-task neural network model that simultaneously identifies an individual’s ECG and arrhythmia patterns using a small network. Finally, the computational efficiency and model size of the single-task and multi-task models were compared based on the number of parameters. Although the multi-task model has 20,000 fewer parameters than the single-task model, they yielded similar performance, which demonstrates the efficient structure of the multi-task model.},
+  abstract={Various biometrics such as the face, irises, and fingerprints, which can be obtained in a relatively simple way in modern society, are used in personal authentication systems to identify individuals. 
+  These biometric data are extracted from an individual’s physiological data and yield high performance in identifying an individual using unique data patterns. 
+  Biometric identification is also used in portable devices such as mobile devices because it is more secure than cryptographic token-based authentication methods. 
+  However, physiological data could include personal health information such as arrhythmia related patterns in electrocardiogram (ECG) signals. 
+  To protect sensitive health information from hackers, the biomarkers of certain diseases or disorders that exist in ECG signals need to be hidden. 
+  Additionally, to implement the inference models for both arrhythmia detection and personal authentication in a mobile device, a lightweight model such as a multi-task deep learning model should be considered. 
+  This study demonstrates a multi-task neural network model that simultaneously identifies an individual’s ECG and arrhythmia patterns using a small network. 
+  Finally, the computational efficiency and model size of the single-task and multi-task models were compared based on the number of parameters. 
+  Although the multi-task model has 20,000 fewer parameters than the single-task model, they yielded similar performance, which demonstrates the efficient structure of the multi-task model.},
   author={Kang, Youngshin and Yang, Geunbo and Eom, Heesang and Han, Seungwoo and Baek, Suwhan and Noh, Seungil and Shin, Youngjoo and Park, Cheolsoo},
   journal={Biomedical Engineering Letters},
   volume={13},
@@ -36,7 +51,10 @@
 @inproceedings{han2022sig,
   abbr={KICS},
   title={AI model based variational mode decomposition using signal data},
-  abstract={Research has been conducted to separate signals by frequency in order to analyze signals. Among signal analysis methods, variational mode decomposition (VMD) is a method to separate signals into multiple modes. This paper implemented a model that plays the role of VMD using convolutional neural networks (CNN). The results showed that the lower order modes have a similar form to the original mode.},
+  abstract={Research has been conducted to separate signals by frequency in order to analyze signals. 
+  Among signal analysis methods, variational mode decomposition (VMD) is a method to separate signals into multiple modes. 
+  This paper implemented a model that plays the role of VMD using convolutional neural networks (CNN). 
+  The results showed that the lower order modes have a similar form to the original mode.},
   author={Seungwoo Han},
   booktitle={proceedings of symposium of the korean institute of communications and information sciences},
   pages={1362--1363},
@@ -48,7 +66,10 @@
 @inproceedings{han2022graph,
   abbr={IEIE},
   title={Arrhythmia classification algorithm using graph neural networks},
-  abstract={An arrhythmia classification is difficult and time-consuming task for cardiologists. Automatic arrhythmia classification research using machine learning algorithms has been continuously conducted, yielding meaningful performance. In this paper, we implemented graph neural networks for the arrhythmia classification extracting the graph features in order to improve the performance. The results were comparable with those of other machine learning models, showing the possibility of a new arrhythmia classifier.},
+  abstract={An arrhythmia classification is difficult and time-consuming task for cardiologists. 
+  Automatic arrhythmia classification research using machine learning algorithms has been continuously conducted, yielding meaningful performance. 
+  In this paper, we implemented graph neural networks for the arrhythmia classification extracting the graph features in order to improve the performance. 
+  The results were comparable with those of other machine learning models, showing the possibility of a new arrhythmia classifier.},
   author={Seungwoo Han and Jaewoo Baek and Cheolsoo Park},
   booktitle={IEIE Summer Conference},
   pages={2012--2014},
