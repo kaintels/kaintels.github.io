@@ -31,6 +31,7 @@ Reviewer experience
 
 - IEEE International Conference on Acoustics, Speech, and Signal Processing
 - IEIE Transactions on Smart Processing and Computing
+- Jurnal Elektro dan Telekomunikasi Terapan (e-Journal)
 
 Academic activity
 
