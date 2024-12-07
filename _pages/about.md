@@ -22,8 +22,8 @@ My research topics of interest include, but are not limited to:
 
 - Graph signal processing
   - graph mode decomposition
+  - irregular tensor decomposition
   - optimal transport and causality
-  - health literacy
 
 Reviewer experience
 
