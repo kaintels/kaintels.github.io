@@ -16,14 +16,20 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! 👋 I currently studying as a PhD student at Tokyo University of Agriculture and Technology TT LAB, where I focus on research in graph signal processing.
+Hello! 👋 I currently studying as a PhD student at Tokyo University of Agriculture and Technology TT LAB, where I focus on research in healthcare.
 
 My research topics of interest include, but are not limited to:
 
-- Graph signal processing
-  - graph mode decomposition
-  - irregular tensor decomposition
-  - optimal transport and causality
+- Generative model
+  - electrocardiography synthesis and restoration
+
+- Biosignal processing AI
+  - remote photoplethysmography
+  - mode mixing problem
+
+- Graph signal processing in bioinformatics
+  - hypertension analysis using causality
+  - alzheimer's disease analysis using pathway
 
 Reviewer experience
 
