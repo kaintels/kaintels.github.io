@@ -16,20 +16,16 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! 👋 I currently studying as a PhD student at Tokyo University of Agriculture and Technology TT LAB, where I focus on research in healthcare.
+Hello! 👋 I currently studying as a PhD student at Tokyo University of Agriculture and Technology TT LAB, where I focus on research in biomedical engineering with AI.
 
 My research topics of interest include, but are not limited to:
 
 - Generative model
-  - electrocardiography synthesis and restoration
-
-- Biosignal processing AI
-  - remote photoplethysmography
+  - biomedical signal(ECG, EEG, EMG, PPG) synthesis
   - mode mixing problem
 
-- Graph signal processing in bioinformatics
-  - hypertension analysis using causality
-  - alzheimer's disease analysis using pathway
+- Medical big data
+  - hypertension and alzheimer's disease analysis
 
 Reviewer experience
 
