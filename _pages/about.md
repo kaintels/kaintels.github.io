@@ -21,11 +21,13 @@ Hello! 👋 I currently studying as a PhD student at Tokyo University of Agricul
 My research topics of interest include, but are not limited to:
 
 - Generative model
-  - biomedical signal(ECG, EEG, EMG, PPG) synthesis
-  - mode mixing problem
+  - biomedical signal(ECG, EMG, PPG) synthesis
 
-- Medical big data
-  - hypertension and alzheimer's disease analysis
+- Brain-computer interface
+  - EEG, fNIRS analysis
+
+- Medical big data analysis
+  - knowledge graph embedding
 
 Reviewer experience
 
