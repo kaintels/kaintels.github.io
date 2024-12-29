@@ -37,4 +37,4 @@ Reviewer experience
 
 Academic activity
 
-- Member, The Institute of Electronics and Information Engineers
+- Member, AI Signal Processing Society at The Institute of Electronics and Information Engineers
